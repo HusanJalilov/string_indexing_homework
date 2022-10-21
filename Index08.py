@@ -6,10 +6,16 @@ def main(s):
     Returns:
         int: answer
     """
+
     for a in range(5):
         if s[a]=="*":
-            return a
+            ans = a
         else:
-            return "False"
+            ans = "False"
+    return ans
+   
+        
+
+print(main("hus*a"))
             
         
