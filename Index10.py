@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    m=0
+    for a in range(5):
+        if s[a].isdigit():
+            m+=int(s[a])
+    
+
+    return m
+print(main("1kk12"))
