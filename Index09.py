@@ -7,7 +7,7 @@ def main(s):
         int: answer
     """
     if s.isdigit():
-        return "True"
+        return 
     else:
         return -1
 print(main("12a"))
