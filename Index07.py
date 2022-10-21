@@ -6,7 +6,8 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if type(s[n])==str:
-        return s[n]
+    if len(s)>=n:
+        answer=s[n]
     else:
-        return "Folse"
+        answer=False
+    return answer
