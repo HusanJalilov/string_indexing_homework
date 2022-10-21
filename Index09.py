@@ -6,4 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s.isdigit():
+        return "True"
+    else:
+        return -1
+print(main("12a"))
