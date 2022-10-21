@@ -6,5 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    for a in range(5):
+        if s[a]=="*":
+            return a
+        else:
+            return "False"
+            
         
